@@ -11,7 +11,7 @@ const client = new ApolloClient({
   version: "1.0",
 });
 
-console.log("<><><><><>", InMemoryCache());
+console.log("<><><><><>", client);
 
 ReactDOM.render(
   <ApolloProvider client={client}>
