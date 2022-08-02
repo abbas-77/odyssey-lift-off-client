@@ -11,6 +11,8 @@ const client = new ApolloClient({
   version: "1.0",
 });
 
+console.log("<><><><><>", InMemoryCache());
+
 ReactDOM.render(
   <ApolloProvider client={client}>
     <GlobalStyles />
